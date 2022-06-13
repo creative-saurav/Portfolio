@@ -1,0 +1,225 @@
+@media all and (min-width:992px){
+    .menu-area ul{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    .mobail-icon,.crose-icon{
+        display: none !important;
+    }
+}
+@media all and (max-width:992px){
+    /* Header Area */
+    .mobail-icon{
+        display: block;
+    }
+    .menu-area ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
+        position: absolute;
+        top: 81px;
+        right:-350px;
+        background-color: #282828;
+        width: 100%;
+        max-width: 350px;
+       
+        height: calc(100% - 70px ) !important;
+        height: 100vh !important;
+        z-index: 99;
+        -webkit-transition: .5s !important;
+        transition: .5s !important;
+        display: none;
+        -webkit-transition: -webkit-transform .5s ease-in-out;
+        transition: -webkit-transform .5s ease-in-out;
+        transition: transform .5s ease-in-out;
+        transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+    }
+    .menu-area .menu-right{
+        right: 0 !important;
+       display: block !important;
+       -webkit-transition: .5s !important;
+       transition: .5s !important;
+    }
+    .menu-area ul li {
+        padding-top: 15px;
+        margin-left: 15px;
+    }
+    .logo-text {
+        font-size: 18px;
+    }
+    /* Bannar Area */
+    .text-items {
+        text-align: center;
+    }
+    .home-text {
+        text-align: center;
+        padding-left: 0;
+    }
+    /* Blog Sidebar Area */
+    .blog-sidebar {
+        top: 80px;
+    }
+    /* Resume Area  */
+    .resume-left {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
+    }
+}
+@media all and (max-width:768px){
+    /* Client Area */
+    .clients-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    /* Fun Fact Area  */
+    .mt--2 {
+        margin-bottom: 20px;
+    }
+    .single-fun {
+        margin: 0 20px;
+    }
+    .fun-fact-area {
+        padding-bottom: 0;
+    }
+    /* Footer Area */
+    .footer-left ul {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 20px 0;
+    }
+    .footer-right {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    /*  Contact Area  */
+    .con-right {
+        margin-top: 20px;
+    }
+    /* extra page */
+    .tap-man{
+        margin-top: 4rem;
+    }
+    /* Full Blog Page */
+    .page-social {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
+    }
+    .p-social-icon {
+        margin-top: 20px;
+    }
+    .page-bottom {
+        margin: 0 70px;
+    }
+    .page-head {
+        padding-left: 50px;
+    }
+    .page-head h3 {
+        font-size: 20px;
+    }
+}
+@media all and (max-width:576px){
+     h1 {
+        font-size: 35px;
+    }
+    /* Bannar Area */
+    .home-button a{
+        margin-bottom: 15px;
+    }
+    /* Title */
+    .block-title {
+        padding-left: 20px;
+    }
+    .service-item {
+        padding: 0 20px;
+    }
+    /* Resume Page Certificate Area */
+    .certi-content {
+        margin-bottom: 30px;
+    }
+    /* Progress Bar Area */
+    .single-progress {
+        padding: 0 20px;
+    }
+    .block-title h2 {
+        margin-top: 20px;
+    }
+    /* Resume Area */
+    .resume-left {
+        padding-left: 20px;
+    }
+    /* Contact Page Area */
+    .map-con {
+        padding: 0 20px;
+    }
+    .con-left {
+        padding: 0 20px;
+    }
+    .icon-info h3 {
+        font-size: 16px;
+    }
+    .form-area {
+        padding: 0 20px;
+    }
+    .field {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .right-column {
+        margin-left: 0;
+    }
+    .form-btns {
+        margin-top: 25px;
+    }
+    /* Extra Page Area */
+    .pricing-items {
+        padding: 30px;
+        margin: 0 20px;
+    }
+    .tab-area, .acordion-multi {
+        margin: 0 20px;
+    }
+    /* Blog Page */
+    .resume-area {
+        padding: 3rem 0;
+    }
+    .blog-body h3 a {
+        font-size: 17px;
+    }
+    .single-blog {
+        padding: 0 20px;
+    }
+    /* Portfolio Page */
+    .portfolio-head ul {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .portfolio-head ul li {
+        margin-bottom: 1rem;
+    }
+}
