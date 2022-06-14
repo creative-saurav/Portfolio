@@ -24,27 +24,22 @@
                 align-items: flex-start;
         position: absolute;
         top: 81px;
-        right:-350px;
+        left:-350px;
         background-color: #282828;
         width: 100%;
         max-width: 350px;
-       
         height: calc(100% - 70px ) !important;
         height: 100vh !important;
         z-index: 99;
         -webkit-transition: .5s !important;
         transition: .5s !important;
-        display: none;
         -webkit-transition: -webkit-transform .5s ease-in-out;
         transition: -webkit-transform .5s ease-in-out;
         transition: transform .5s ease-in-out;
         transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
     }
     .menu-area .menu-right{
-        right: 0 !important;
-       display: block !important;
-       -webkit-transition: .5s !important;
-       transition: .5s !important;
+        left: 0 !important;
     }
     .menu-area ul li {
         padding-top: 15px;
