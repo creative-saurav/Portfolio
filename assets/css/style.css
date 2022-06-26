@@ -616,6 +616,8 @@ img{
 	top: 13px;
 	color: #ddd;
 	font-size: 17px;
+	background: transparent;
+	border: none;
 }
 .sidebar-items .block-title h2:after{
     background: #fff;
